@@ -1,0 +1,26 @@
+# Not published
+koreanpatch/
+
+# Game-derived data (copyrighted game code and strings)
+re/MadMax_dump.exe
+re/dump.log
+infiniteammo/tools/hashnames.json
+
+# Build output
+*/src/build/
+tools/Gibbed.MadMax/**/bin/Release/
+tools/Gibbed.MadMax/**/obj/
+tools/Gibbed.MadMax/out/
+
+# Release archives go to GitHub Releases, not the repository
+*/release/*.zip
+
+# Third-party binaries: download them from the original project
+tools/asi-loader/
+
+# Python
+__pycache__/
+venv/
+
+# Backups left by the csproj conversion
+*.orig
