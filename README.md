@@ -11,7 +11,7 @@ Native mods for Mad Max (2015, Steam version only).
 
 ## Install
 
-1. Install [Ultimate ASI Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader/releases) (x64) as `dinput8.dll` in the game folder.
+1. Install Ultimate ASI Loader once: download `UltimateASILoader-9.7.4.zip` from [Releases](../../releases) and install it like a mod zip. It holds the unchanged `dinput8.dll` (x64) from [ThirteenAG/Ultimate-ASI-Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader), MIT license.
 2. Download a mod zip from [Releases](../../releases) and extract it into the game folder (next to `MadMax.exe`). The zip also installs with Vortex.
 
 To uninstall, delete the mod's `.asi` (and `.ini`) from the game folder.

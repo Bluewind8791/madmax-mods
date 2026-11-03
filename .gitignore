@@ -16,7 +16,9 @@ tools/Gibbed.MadMax/out/
 */release/*.zip
 
 # Third-party binaries: download them from the original project
-tools/asi-loader/
+tools/asi-loader/*
+!tools/asi-loader/release/
+tools/asi-loader/release/*.zip
 
 # Python
 __pycache__/
