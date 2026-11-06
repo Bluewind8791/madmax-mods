@@ -1,10 +1,12 @@
-# Not published
-koreanpatch/
+# Not published: community Korean translation (crashes while driving, see CLAUDE.md)
+/MadMax_kor_v1.zip
+/MadMax_kor_v1.4f/
 
 # Game-derived data (copyrighted game code and strings)
 re/MadMax_dump.exe
 re/dump.log
 infiniteammo/tools/hashnames.json
+infiniteammo/research/natives.txt
 
 # Build output
 */src/build/

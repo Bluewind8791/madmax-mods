@@ -4,7 +4,7 @@
 
 - v1 works for the shotgun and the sniper rifle. Confirmed in game on 2026-10-17: 5+ shotgun shots and several sniper shots, counts did not go down (log: `Kept 1 shotgun_shell`, `Kept 3 signature_sniper_bullet`; the sniper rifle loads 3 rounds at once).
 - The Thunderpoon and shivs are not tested: the user's save has not unlocked them yet.
-- Requirement from `../MOD_TODO.md`: infinite ammo for every ammo type, switchable in settings. Implemented as one on/off switch per ammo type in `infiniteammo.ini`.
+- Requirement: infinite ammo for every ammo type, switchable in settings. Implemented as one on/off switch per ammo type in `infiniteammo.ini`.
 - Meaning of "infinite": the inventory count never goes down while it is at least 1. Weapons still reload. With 0 rounds the game behaves normally.
 - Existing mods: searched Nexus Mods on 2026-10-17. No `.asi`/standalone infinite-ammo mod for Mad Max was found. Trainers exist (for example CheatHappens), but they are separate programs, not mods.
 - Open questions:
@@ -14,7 +14,7 @@
 
 ## Files
 
-Paths are relative to this folder (`E:\mods\Mad Max\infiniteammo`). `<game folder>` = `C:\Program Files (x86)\Steam\steamapps\common\Mad Max`.
+Paths are relative to this folder. `<game folder>` = `C:\Program Files (x86)\Steam\steamapps\common\Mad Max`.
 
 | Path | Purpose |
 |------|---------|

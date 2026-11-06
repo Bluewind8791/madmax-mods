@@ -1,6 +1,6 @@
 # Compare code bytes of the dump with the running game and print C arrays.
-import ctypes, subprocess, sys
-d = open(r'E:/mods/Mad Max/re/MadMax_dump.exe', 'rb').read()
+import ctypes, os, subprocess, sys
+d = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 're', 'MadMax_dump.exe'), 'rb').read()
 k32 = ctypes.WinDLL('kernel32')
 r = subprocess.run(['tasklist', '/FI', 'IMAGENAME eq MadMax.exe', '/FO', 'CSV', '/NH'], capture_output=True, text=True).stdout
 pid = int([l for l in r.splitlines() if 'MadMax.exe' in l][0].split('","')[1])

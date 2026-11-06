@@ -11,7 +11,7 @@
 
 ## Files
 
-Paths are relative to this folder (`E:\mods\Mad Max\cleanupcrewanywhere`). `<game folder>` = `C:\Program Files (x86)\Steam\steamapps\common\Mad Max`.
+Paths are relative to this folder. `<game folder>` = `C:\Program Files (x86)\Steam\steamapps\common\Mad Max`.
 
 | Path | Purpose |
 |------|---------|
